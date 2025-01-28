@@ -251,7 +251,61 @@ html {
 }
 
 /* PROJECTS SECTION */
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #131315;
+  color: #fff;
+  border-radius: 20px;
+}
 
+.projects a {
+  text-decoration: none;
+}
+
+.projectHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 32px;
+}
+
+.projectLink {
+  height: 52px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 16px;
+  rotate: 4deg;
+  transition: all ease-in-out 0.2s;
+}
+.projectLink:hover {
+  transform: scale(1.05);
+  rotate: -8deg;
+  cursor: pointer;
+}
+
+.projectName {
+  font-size: 44px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -1.5px;
+  padding-bottom: 16px;
+}
+
+.projectDesc {
+  color: #d3d3d3;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 0;
+  text-wrap: balance;
+  width: 94%;
+}
+
+.projectImg {
+  width: 100%;
+  border-radius: 20px;
+}
 
 
 /* SOCIALS SECTION */

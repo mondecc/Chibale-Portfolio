@@ -274,7 +274,7 @@ html {
 .projectLink {
   height: 52px;
   background-color: #fff;
-  border-radius: 50%;
+  border-radius: 30%;
   padding: 16px;
   rotate: 4deg;
   transition: all ease-in-out 0.2s;
